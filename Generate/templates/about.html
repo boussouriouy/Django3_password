@@ -1,0 +1,7 @@
+{% extends 'home.html' %} {% block content %}
+<div class="container text-center">
+    <h2>This is the about page</h2>
+    <a href="{% url 'home' %}"><button class="btn btn-warning">Go_Home</button></a>
+    <a href="{% url 'password' %}"><button class="btn btn-warning">Go_password</button></a>
+</div>
+{% endblock %}
